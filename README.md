@@ -202,5 +202,50 @@ Writing objects: 100% (4/4), 639 bytes | 319.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Kr0k0d/XML.git
    ca2537e..a6bb78e  main -> main
-
   ```
+---
+  
+### 14. На веб интерфейсе создать файл bug_report.xml.
+Для этого нужно открыть GitHub, перейти в репозиторий,  нажать на кнопку "Add file" и выбрать "Create new file".
+
+---
+
+### 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажимаем на кнопку "Commit changes".
+
+---
+
+### 16.На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+Через GitHub внести изменение в файл bug_report.xml
+
+---
+
+### 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Как и в пункте 14 коммитим изменения
+
+---
+
+### 18. Синхронизировать внешний и локальный репозиторий XML
+
+Сохранить изменение на компьютере, помодет команда 
+
+```
+git pull
+```
+_Вывод_
+```
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 9 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), 4.32 KiB | 73.00 KiB/s, done.
+From https://github.com/Kr0k0d/XML
+   a6bb78e..20ee9e0  main       -> origin/main
+Updating a6bb78e..20ee9e0
+Fast-forward
+ README.md      | 207 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ bug_report.xml |  10 +++
+ 2 files changed, 216 insertions(+), 1 deletion(-)
+ create mode 100644 bug_report.xml
+```
