@@ -207,7 +207,17 @@ To https://github.com/Kr0k0d/XML.git
   
 ### 14. На веб интерфейсе создать файл bug_report.xml.
 Для этого нужно открыть GitHub, перейти в репозиторий,  нажать на кнопку "Add file" и выбрать "Create new file".
-
+```
+<bugs>
+  <id>404</id>
+  <Name>Ошибка при загрузке страницы</Name>
+  <Description>При попытке загрузить страницу, браузер выдает ошибку "404 Not Found". Это происходит на всех страницах сайта, не только на одно</Description>
+  <Environment>Windows 10 Chrome</Environment>
+  <Reproduction>Открыть любую страницу на сайте и попытаться ее загрузить</Reproduction>
+  <Expected_result>Страница должна загрузиться без ошибок</Expected_result>
+  <Current_result> Браузер выдал ошибку "404 Not Found"</Current_result>
+</bugs>
+```
 ---
 
 ### 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
@@ -217,7 +227,9 @@ To https://github.com/Kr0k0d/XML.git
 
 ### 16.На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
 Через GitHub внести изменение в файл bug_report.xml
-
+```
+  <Priority>Hight</Priority>
+```
 ---
 
 ### 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
