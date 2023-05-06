@@ -1,0 +1,9 @@
+<bugs>
+  <id>404</id>
+  <Name>Ошибка при загрузке страницы</Name>
+  <Description>При попытке загрузить страницу, браузер выдает ошибку "404 Not Found". Это происходит на всех страницах сайта, не только на одно</Description>
+  <Environment>Windows 10 Chrome</Environment>
+  <Reproduction>Открыть любую страницу на сайте и попытаться ее загрузить</Reproduction>
+  <Expected_result>Страница должна загрузиться без ошибок</Expected_result>
+  <Current_result> Браузер выдал ошибку "404 Not Found"</Current_result>
+</bugs>
